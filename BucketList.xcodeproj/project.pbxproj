@@ -62,11 +62,11 @@
 				B68DEDA02B4E8732000C22DE /* BucketListApp.swift */,
 				B68DEDA22B4E8732000C22DE /* ContentView.swift */,
 				B68DEDB02B4EA0D3000C22DE /* EditView.swift */,
+				B68DEDB22B4EA444000C22DE /* Result.swift */,
 				B68DEDB42B4EA805000C22DE /* ContentView-ViewModel.swift */,
 				B68DEDAE2B4E98F2000C22DE /* Location.swift */,
 				B68DEDA42B4E8734000C22DE /* Assets.xcassets */,
 				B68DEDA62B4E8734000C22DE /* Preview Content */,
-				B68DEDB22B4EA444000C22DE /* Result.swift */,
 			);
 			path = BucketList;
 			sourceTree = "<group>";
