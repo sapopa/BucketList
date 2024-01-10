@@ -11,6 +11,10 @@
 		B68DEDA32B4E8732000C22DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DEDA22B4E8732000C22DE /* ContentView.swift */; };
 		B68DEDA52B4E8734000C22DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68DEDA42B4E8734000C22DE /* Assets.xcassets */; };
 		B68DEDA82B4E8734000C22DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68DEDA72B4E8734000C22DE /* Preview Assets.xcassets */; };
+		B68DEDAF2B4E98F2000C22DE /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DEDAE2B4E98F2000C22DE /* Location.swift */; };
+		B68DEDB12B4EA0D3000C22DE /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DEDB02B4EA0D3000C22DE /* EditView.swift */; };
+		B68DEDB32B4EA444000C22DE /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DEDB22B4EA444000C22DE /* Result.swift */; };
+		B68DEDB52B4EA805000C22DE /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DEDB42B4EA805000C22DE /* ContentView-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		B68DEDA22B4E8732000C22DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B68DEDA42B4E8734000C22DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B68DEDA72B4E8734000C22DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B68DEDAE2B4E98F2000C22DE /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B68DEDB02B4EA0D3000C22DE /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		B68DEDB22B4EA444000C22DE /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		B68DEDB42B4EA805000C22DE /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				B68DEDA02B4E8732000C22DE /* BucketListApp.swift */,
 				B68DEDA22B4E8732000C22DE /* ContentView.swift */,
+				B68DEDB02B4EA0D3000C22DE /* EditView.swift */,
+				B68DEDB42B4EA805000C22DE /* ContentView-ViewModel.swift */,
+				B68DEDAE2B4E98F2000C22DE /* Location.swift */,
 				B68DEDA42B4E8734000C22DE /* Assets.xcassets */,
 				B68DEDA62B4E8734000C22DE /* Preview Content */,
+				B68DEDB22B4EA444000C22DE /* Result.swift */,
 			);
 			path = BucketList;
 			sourceTree = "<group>";
@@ -138,6 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B68DEDA32B4E8732000C22DE /* ContentView.swift in Sources */,
+				B68DEDB52B4EA805000C22DE /* ContentView-ViewModel.swift in Sources */,
+				B68DEDB32B4EA444000C22DE /* Result.swift in Sources */,
+				B68DEDAF2B4E98F2000C22DE /* Location.swift in Sources */,
+				B68DEDB12B4EA0D3000C22DE /* EditView.swift in Sources */,
 				B68DEDA12B4E8732000C22DE /* BucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +290,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unlock places.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +319,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unlock places.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
