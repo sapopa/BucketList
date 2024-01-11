@@ -10,12 +10,13 @@ import MapKit
 import CoreLocation
 import LocalAuthentication
 
-extension ContentView{
+extension ContentView {
     @Observable
     class ViewModel {
         private(set) var locations: [Location]
         var selectedPlace: Location?
         var isUnlocked = false
+        var isMapToggled = false
         
         let savePath = URL.documentsDirectory.appending(path: "SavedPlaces")
         
